@@ -21,3 +21,11 @@ img{
     width:20%;
     height:20%;
 }
+
+nav li{
+    color:aquamarine;
+}
+
+.navbar{
+    display: inline-flex;
+}

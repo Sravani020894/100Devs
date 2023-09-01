@@ -8,4 +8,5 @@ section{
 .float{
     width:50%;
     float:left;
+    clear:both;
 }

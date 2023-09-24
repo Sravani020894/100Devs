@@ -61,7 +61,7 @@ main section + section section{
   float: left;
   border: 1px solid black;
 } */
-nav, ul, main{
+/* nav, ul, main{
   display: flex;
   justify-content: space-around;
 }
@@ -75,6 +75,26 @@ main section + section{
   display: flex;
   flex-wrap: wrap;
   flex-basis: 50%;  
+}
+.container{
+  display: flex;
+} */
+
+nav,ul,main{
+  display: flex;
+  justify-content: space-around;
+  border: 5px solid black;
+}
+ul{
+  flex-basis: 40%;
+}
+main section{
+  flex-basis:48%;
+}
+main section + section{
+  display: flex;
+  flex-basis: 50%;
+  flex-wrap: wrap;
 }
 .container{
   display: flex;
